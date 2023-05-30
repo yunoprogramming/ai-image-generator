@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "dev": "nodemon index",
-    "build": "npm run custom-build",
-    "custom-build": "mkdir dist && cp -R ./* dist"
+    "dev": "nodemon index"
   },
   "keywords": [],
   "author": "",
@@ -21,7 +19,3 @@
     "nodemon": "^2.0.22"
   }
 }
-
-
-
-
