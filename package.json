@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index",
     "dev": "nodemon index",
-    "build": "mkdir dist && cp -R ./* dist"
+    "build": "npm run custom-build",
+    "custom-build": "mkdir dist && cp -R ./* dist"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +21,7 @@
     "nodemon": "^2.0.22"
   }
 }
+
 
 
 
