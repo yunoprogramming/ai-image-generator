@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "dev": "nodemon index"
-  },   
+    "dev": "nodemon index",
+    "build": "mkdirp dist && cp index.js dist/ && cp -R public dist/public"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -16,7 +17,9 @@
     "openai": "^3.2.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22"
+    "nodemon": "^2.0.22",
+    "mkdirp": "^1.0.4"
   }
 }
+
 
