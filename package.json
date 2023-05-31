@@ -12,14 +12,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.0.3",
+    "dotenv": "^16.1.1",
     "express": "^4.18.2",
     "openai": "^3.2.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22",
-    "mkdirp": "^1.0.4"
+    "mkdirp": "^1.0.4",
+    "nodemon": "^2.0.22"
   }
 }
-
-
